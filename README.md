@@ -1,5 +1,7 @@
 # Class Roster via our API data
-
+## Sources
+https://codepen.io/manikoth/pen/bGaZZKM
+https://cssgradient.io/
 
 ## What Is This? 
 Get, Show, and Style a Class Roster via our API data

@@ -36,17 +36,23 @@ body {
     justify-content: center;
     justify-items: center;
     align-items: center;
+
   } 
   
   .gallery figcaption {
     font-size: 1.5em;
     color: white;
-    background: rgba(0, 0, 0, 0.46);
     position: absolute;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(1,81,119,1) 43%, rgba(0,212,255,1) 100%); 100%);
     z-index: 10;
-    bottom: 0; 
-    left: 0;
+    bottom: 5px; 
+    left: 10px;
+    display: none;
     
+  }
+  figure:hover figcaption{
+display: block;
+
   }
   
   
@@ -123,6 +129,3 @@ body {
     box-sizing: border-box;
       display:inline;
   }
-
-    img:hover {
-    }
