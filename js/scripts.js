@@ -11,17 +11,17 @@ fetch(url)
     // check-check: get one image
     // Note: Webflow returns data in array called `items`
     console.log(data.items[0].image.url);
-
+    console.log(data.items[0].name);
     // get container for data
     const gallery = document.querySelector(".gallery");
-
+    
     //
     data.items.forEach( student => {
       
       // template
       const template = `
           <figure>
-            <figcaption>Student</figcaption>
+            <figcaption>${student.name}</figcaption>
             <img src="${student.image.url}" alt="Placeholder" />
           </figure>
        `;
